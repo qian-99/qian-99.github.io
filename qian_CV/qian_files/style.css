@@ -1,6 +1,6 @@
 h1,h2,h3
 {
-font-family: arial, 'sans serif'; 
+font-family: arial, 'sans serif';
 }
 
 h3.sec:first-letter
@@ -10,13 +10,22 @@ font-size:x-large;
 
 h3.sec
 {
-background-color:lightblue
+background-color:gray
 }
 
 body
 {
-background-color:white;
+background-color:lightgray;
 }
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 0px solid black;
+}
+
+
 
 a:active  {}
 a:hover   {background-color:yellow}
